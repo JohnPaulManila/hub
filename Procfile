@@ -1,1 +1,1 @@
-web: python hub.py
+worker: python hub.py
