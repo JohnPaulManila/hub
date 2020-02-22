@@ -211,4 +211,5 @@ async def getinfo(ctx, member: discord.Member):
     em19.add_field(name='HUB', value=member.bot, inline=False)
     await ctx.send(embed=em19)
 
+TOKEN = os.environ.get('DISCORD_BOT_SECRET')
 client.run(TOKEN)
