@@ -211,4 +211,4 @@ async def getinfo(ctx, member: discord.Member):
     em19.add_field(name='HUB', value=member.bot, inline=False)
     await ctx.send(embed=em19)
 
-client.run('Njc4ODkxNzY1NzA4ODgxOTMw.Xkpawg.NeGCSnqHU0KapLogZ6p9LBseXmM')
+client.run(TOKEN)
